@@ -1,10 +1,12 @@
 # Description
+
 You have to complete 3 functions in 3 different files:
+
 - fizzBuzz -> `fizzBuzz.js`
 - leetSpeak -> `leetSpeak.js`
 - gettingDrunkCheap -> `gettingDrunkCheap.js`
 
-Also, you have to make a UI build *(in a public repository)* of the attached pictures - *more on that later*.
+Also, you have to make a UI build _(in a public repository)_ of the attached pictures - _more on that later_.
 
 Only write in the listed .js files. Do not change any starter code.
 
@@ -13,13 +15,15 @@ Each function should return a value, depending on the task.
 You can run some built-in tests witn the `node test.js` command.  
 You can run the .js files independently with the `node filename.js` command.
 
-*Don't forget to add me (ricsimarta) as a contributor to this repository!*
+_Don't forget to add me (ricsimarta) as a contributor to this repository!_
 
 ---
 
 # fizzBuzz
+
 Write a function, that has 2 number parameters: `num1` and `num2`.  
 The function should return an array of the numbers between, and including the 2 parameters, in ascending order, with some exceptions:
+
 - if the number is a multiple of 3, you should change the number to `"fizz"`
 - if the number is a multiple of 5, you should change the number to `"buzz"`
 - if the number is a multiple of 3 **and** 5, you should change the number to `"fizzbuzz"`
@@ -36,8 +40,10 @@ examples:
 ---
 
 # leetSpeak
+
 Write a function that has 1 string parameter: `text`.  
 The function should return the same string **in uppercase**, with some changes:
+
 - all of the `"O"` letters are changed to `"0"` characters
 - all of the `"I"` and `"L"` letters are changed to `"1"` characters
 - all of the `"Z"` letters are changed to `"2"` characters
@@ -54,12 +60,14 @@ examples:
 `leetSpeak("Lorem Ipsum)` should return `"10R3M 1P5UM"`
 
 # gettingDrunkCheap
+
 Write a function that has 1 parameter: `drinks`.  
-The `drinks` parameter is an array of `drink` objects.  
+The `drinks` parameter is an array of `drink` objects.
 
 You will always get an array of `drink` objects, no need to check those.
 
 An example of a `drink` object:
+
 ```
 {
   name: "Vodka",
@@ -71,19 +79,24 @@ An example of a `drink` object:
 
 The function should iterate through the array, and give each `drink` object a new key: `pricePerAbv`.  
 The `pricePerAbv` key should have a number value, that you get from this formula:
+
 ```
 pricePerAbv = price / volume / abv
 ```
 
 The function should return the object with the lowest `pricePerAbv` value **rounded down**, in the following fashion:
+
 ```
 {
   name: "Pálinka",
   pricePerAbv: 200
 }
 ```
+
 ---
+
 example drinks array:
+
 ```
 [
   {
@@ -91,13 +104,13 @@ example drinks array:
     price: 5500,
     abv: 37.5,
     volume: 0.7
-  }, 
+  },
   {
     name: "Whiskey",
     price: 7000,
     abv: 40,
     volume: 0.7
-  }, 
+  },
   {
     name: "Pálinka",
     price: 10000,
@@ -109,6 +122,7 @@ example drinks array:
 
 example running with the same drinks array:  
 `gettingDrunkCheap(shortDrinks)` should return
+
 ```
 {
   name: "Pálinka",
@@ -116,15 +130,17 @@ example running with the same drinks array:
 }
 ```
 
-*Don't forget to add me (ricsimarta) as a contributor to this repository!*
+_Don't forget to add me (ricsimarta) as a contributor to this repository!_
 
 ---
 
 # UI build
+
 Create a **public** repository with the `halftime-exam-uibuild` name.  
 **Work in the created repository!**
 
 Make a UI build from the attached 2 pictures:
+
 - `uibuild_desktop.png` for the desktop view
 - `uibuild_mobile.png` for the mobile view
 
